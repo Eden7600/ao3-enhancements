@@ -1,0 +1,29 @@
+{
+  "editor.tabSize": 2,
+  "files.associations": {
+    "manifest.json": "jsonc"
+  },
+  "markdownlint.config": {
+    "default": true,
+    "no-inline-html": {
+      "allowed_elements": [
+        "details",
+        "summary",
+        "img"
+      ]
+    },
+    "fenced-code-language": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+  ],
+  "vetur.validation.template": false,
+  "editor.formatOnSave": true
+}
